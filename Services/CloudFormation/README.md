@@ -16,19 +16,46 @@ High level steps for CloudFormation
 
 # Further Reading
 
+1. What is AWS CloudFormation Guard?
+	- https://docs.aws.amazon.com/cfn-guard/latest/ug/what-is-guard.html
+
+1. Visually design and build modern applications quickly
+	- https://aws.amazon.com/application-composer/
+
+1. Generate templates from existing resources with IaC generator
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html
+
+1. Accelerate infrastructure as code development with open source Former2
+	- https://aws.amazon.com/blogs/opensource/accelerate-infrastructure-as-code-development-with-open-source-former2/
+
+1. AWS CloudFormation: IaC at Enterprise Scale
+	- https://www.singlestoneconsulting.com/blog/aws-cloudformation-iac-at-enterprise-scale/
+
+1. CloudFormation Workshop
+	- https://cfn101.workshop.aws/
+
+1. AWS CloudFormation best practices
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html
+
+1. Quickly Retry Stack Operations from the Point of Failure
+	- https://aws.amazon.com/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/
+
+1. Exporting stack output values
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-exports.html
+
+1. Introducing AWS CloudFormation Guard 2.0
+	- https://aws.amazon.com/blogs/mt/introducing-aws-cloudformation-guard-2-0/
+
 1. Handling Region parity with infrastructure as code
 	- https://aws.amazon.com/blogs/mt/handling-region-parity-with-infrastructure-as-code/
 
-1. AWS CloudFormation
-	- https://aws.amazon.com/cloudformation/
+1. Using AWS CloudFormation macros to perform custom processing on templates
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-macros.html
 
 1. Comparing CloudFormation with other similar tools
 	- https://cloudonaut.io/cloudformation-vs-terraform/
 	- https://ryaneschinger.com/blog/aws-cloudformation-vs-terraform/
 	- https://www.thecloudavenue.com/2020/09/aws-infrastructure-provisioning-with-ansible.html
-
-1. List of AWS Resources Supported
-	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift-resource-list.html
 
 1. AWS resource and property types reference
 	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html
@@ -38,7 +65,7 @@ High level steps for CloudFormation
 
 1. Sample CloudFormation Templates
 	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/sample-templates-services-us-east-1.html
-	- https://github.com/widdix/aws-cf-templates
+	- https://cloudonaut.io/getting-started-with-aws-cf-templates/
 	- https://github.com/cfn-modules/docs
 
 1. Walkthroughs for auto generating the Template code 
@@ -51,6 +78,7 @@ High level steps for CloudFormation
 	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-nested-stacks.html
 
 1. Change Sets (previewing the changes when updating a Stack)
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks.html
 	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html
 
 1. Detect drift on an entire CloudFormation stack
@@ -61,3 +89,7 @@ High level steps for CloudFormation
 
 1. Linter
 	- https://github.com/aws-cloudformation/cfn-python-lint
+
+1. CloudFormation Registry
+	- https://aws.amazon.com/blogs/aws/introducing-a-public-registry-for-aws-cloudformation/
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/registry.html

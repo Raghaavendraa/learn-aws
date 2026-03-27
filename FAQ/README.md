@@ -3,24 +3,64 @@
 
 While talking to someone around AWS or while conducting trainings, some of the questions pop up again and again. This page is an attempt to consolidate all such questions. These FAQ are also very good for the sake of interviews.
 
+## First Things First
+
 1. Create and activate an AWS account
     - https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
     - https://aws.amazon.com/premiumsupport/plans/
 
-1. Connecting to Your Linux Instance if You Lose Your Private Key
-    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html
+1. AWS Documentation
+    - https://docs.aws.amazon.com/
 
-1. How to work with windows EC2?
-    - https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/EC2_GetStarted.html
+1. AWS Documentation is Now Open Source and on GitHub
+    - https://aws.amazon.com/blogs/aws/aws-documentation-is-now-open-source-and-on-github/
+
+1. AWS Free tier
+    - https://aws.amazon.com/free/
+    - https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/
+
+
+1. AWS Infrastructure
+    - https://aws.amazon.com/about-aws/global-infrastructure/
+    - https://aws.amazon.com/cloudfront/features/
 
 1. AWS Products and Services by Regions
     - https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 
+1. Region Codes
+    - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html
+
+1. How do I convert a .pem file into a .ppk, and vice versa, on Windows and Linux?
+    - https://aws.amazon.com/premiumsupport/knowledge-center/ec2-ppk-pem-conversion/
+
+## Everything Else
+
+1. Receiving email with Amazon SES
+    - https://docs.aws.amazon.com/ses/latest/DeveloperGuide/receiving-email.html
+
+1. Why is CloudFront serving outdated content from Amazon S3?
+    - https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serving-outdated-content-s3/
+
+1. How many EC2's can be attached to a single EBS volume?
+    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
+
+1. Auto Scaling groups with multiple instance types and purchase options
+    - https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-purchase-options.html
+
+1. How do I attach a new EBS volume to a running Amazon EC2 Windows instance?
+    - https://aws.amazon.com/premiumsupport/knowledge-center/attach-ebs-running-windows/
+
+1. Why are S3 and Google Storage bucket names a global namespace?
+    - https://stackoverflow.com/questions/24112647/why-are-s3-and-google-storage-bucket-names-a-global-namespace
+
+1. The 17 Ways to Run Containers on AWS
+    - https://www.lastweekinaws.com/blog/the-17-ways-to-run-containers-on-aws/
+
+1. How to work with windows EC2?
+    - https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/EC2_GetStarted.html
+
 1. EC2 Instance Types
     - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
-
-1. How to create a username/password for EC2?
-    - http://stackoverflow.com/a/7696451/614157
 
 1. How to export AMI to another region?
     - https://aws.amazon.com/premiumsupport/knowledge-center/copy-ami-region/
@@ -44,7 +84,7 @@ While talking to someone around AWS or while conducting trainings, some of the q
     - https://docs.aws.amazon.com/efs/latest/ug/mounting-fs-mount-cmd-ip-addr.html
 
 1. How is the Spot Instance termination is handled?
-     - https://aws.amazon.com/about-aws/whats-new/2018/01/amazon-ec2-spot-two-minute-warning-is-now-available-via-amazon-cloudwatch-events/
+    - https://aws.amazon.com/about-aws/whats-new/2018/01/amazon-ec2-spot-two-minute-warning-is-now-available-via-amazon-cloudwatch-events/
     - https://aws.amazon.com/blogs/aws/new-ec2-spot-instance-termination-notices/
 
 1. Application Load Balancers and Classic Load Balancers support X-Forwarded-For, X-Forwarded-Proto, and X-Forwarded-Port headers.
@@ -55,10 +95,6 @@ While talking to someone around AWS or while conducting trainings, some of the q
 
 1. Add existing EC2 to the AutoScalingGroup?
     - https://docs.aws.amazon.com/autoscaling/ec2/userguide/attach-instance-asg.html
-
-1. How to do the IAM Federation?
-    - https://aws.amazon.com/identity/federation/
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers.html
 
 1. http to https redirection in ELB?
     - https://aws.amazon.com/about-aws/whats-new/2018/07/elastic-load-balancing-announces-support-for-redirects-and-fixed-responses-for-application-load-balancer/
@@ -73,48 +109,14 @@ While talking to someone around AWS or while conducting trainings, some of the q
 1. Where do we specify the termination policy?
     - https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html
 
-1. Giving cross account permissions for the AWS permission?
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html
-
-1. Region Codes
-    - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html
-
-1. How to use multiple security credentials?
-    - https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
-
-1. What if the mobile phone is lost for the MFA authentication?
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html
-
-1. How to make it mandatory for IAM user to use MFA for login?
-    https://forums.aws.amazon.com/thread.jspa?threadID=154971
-
-1. How to use RSA device for MFA?
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_physical.html
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_u2f.html
-
-1. How to use Tags in AWS to give resource permissions?
-    - https://www.thecloudavenue.com/2019/07/how-to-use-tags-in-aws-to-give-resource.html
-
 1. Resource Groups
     - https://docs.aws.amazon.com/ARG/latest/userguide/welcome.html
-
-1. Can the life cycle policy be applied on a subset of bucket data?
-    - https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-lifecycle.html
 
 1. VPC Resize
     - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-resize
 
 1. What is the least CIDR that we can use in AWS VPC?
     - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#VPC_Sizing
-
-1. What comes free with Trusted Advisor?
-    - https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
-
-1. How do I reset the master user password for my Amazon RDS DB instance?
-    - https://aws.amazon.com/premiumsupport/knowledge-center/reset-master-user-password-rds/
-
-1. Limitations for S3 LifeCycle Policies
-    - https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-transition-general-considerations.html
 
 1. Mounting EFS by IP address
     - https://docs.aws.amazon.com/efs/latest/ug/mounting-fs-mount-cmd-ip-addr.html
@@ -127,11 +129,6 @@ While talking to someone around AWS or while conducting trainings, some of the q
     - https://www.sumologic.com/blog/aws-elb-vs-nginx-load-balancer/
     - https://www.trianz.com/insights/reverse-proxying-requests-with-aws-elb-edge
     - https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer/
-
-1. How to configure SSL in ELB?
-    - https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-create-https-ssl-load-balancer.html
-    - https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html
-    - https://docs.aws.amazon.com/elasticloadbalancing/latest/network/create-tls-listener.html
 
 1. Weighted ELB?
     - https://aws.amazon.com/blogs/aws/new-application-load-balancer-simplifies-deployment-with-weighted-target-groups/
@@ -149,16 +146,6 @@ While talking to someone around AWS or while conducting trainings, some of the q
     - https://www.nomachine.com/accessing-your-remote-linux-desktop-on-amazon-elastic-compute-cloud-via-NoMachine
     - https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-2-install-gui/
 
-1. General getting started with IT
-    - Programming Language - https://www.tutorialspoint.com/python/index.htm
-    - Database - https://www.tutorialspoint.com/mysql/index.htm
-    - Linux - https://www.tutorialspoint.com/unix/index.htm
-
-1. EndPoints
-    - Interface VPC Endpoints (AWS PrivateLink) - https://docs.aws.amazon.com/vpc/latest/userguide/vpce-interface.html
-    - Gateway VPC Endpoints - https://docs.aws.amazon.com/vpc/latest/userguide/vpce-gateway.html
-    - AWS New York Summit 2018 - AWS PrivateLink: Fundamentals (SRV211) - AWS New York Summit 2018 - AWS PrivateLink: Fundamentals (SRV211)
-
 1. Limits of the ELB
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-limits.html
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html
@@ -167,38 +154,11 @@ While talking to someone around AWS or while conducting trainings, some of the q
 1. AWS CLI V1 vs V2
     - https://www.youtube.com/watch?v=U5y7JI_mHk8
 
-1. What is master key in KMS?
-    - Nothing more than a master key.
-
-1. How to replace CMK Key for EBS Volumes? Without recreating the volumes.
-     - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html
-
-1. Can we change the rotation duration for AWS Managed Keys? Depends on the type of key as mentioned in the below document.
-    - https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html
-
-1. What is Envelope Encryption?
-    - https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html
-
-1. Rotating Customer Master Keys
-    - https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html
-
-1. What is master key in KMS?
-    - https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html
-
 1. How many versions can store in S3?
     - https://docs.amazonaws.cn/en_us/AmazonS3/latest/dev/list-obj-version-enabled-bucket.html
 
 1. Getting started with storage gateway
     - https://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted.html
-
-1. What is Job Function in Policies
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html
-
-1. How to use Tags in AWS to give resource permissions?
-    - https://www.thecloudavenue.com/2019/07/how-to-use-tags-in-aws-to-give-resource.html
-
-1. Can we restrict access keys to a specific IP?
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_aws_deny-ip.html
 
 1. Can Aurora DB have multiple writer nodes?
     - https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-multi-master.html
@@ -247,35 +207,15 @@ While talking to someone around AWS or while conducting trainings, some of the q
 1. NAT Instance vs Gateway
     - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
 
-1. AWS Public IP Range
-    - https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
-
-1. How to join Linux EC2 in Microsoft Active Directory?
-    - https://www.centrify.com/express/server-suite-form/
-
-1. How do I use an MFA token to authenticate access to my AWS resources through the AWS CLI?
-    - https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/
-
-1. Configure SSL/TLS on Amazon Linux 2
-    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html
-
 1. Cloud Patterns
     - https://docs.microsoft.com/en-us/azure/architecture/patterns/
 
 1. How can I utilize user data to automatically execute a script with every restart of my Amazon EC2 instance?
     - https://aws.amazon.com/premiumsupport/knowledge-center/execute-user-data-ec2/
 
-1. Create a PEM from a PPK file
-    - https://stackoverflow.com/questions/33273180/create-a-pem-from-a-ppk-file
-
 1. S3 Demo around Tagging
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/object-tagging.html
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-configuration-examples.html#lifecycle-config-ex1
-
-1. S3 Detection for Malware/Virus
-    - S3 has no feature for the same, it has to be integrated with AWS Macie.
-    - https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html
-    - https://docs.aws.amazon.com/macie/latest/userguide/macie-alerts.html
 
 1. Supported S3 transitions and related constraints
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-transition-general-considerations.html
@@ -306,19 +246,6 @@ While talking to someone around AWS or while conducting trainings, some of the q
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancer-getting-started.html
 
-1. What is CORS?
-    - https://www.codecademy.com/articles/what-is-cors
-    - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-    - http://restlet.com/company/blog/2015/12/15/understanding-and-using-cors/
-
-1. CORS in AWS
-    - https://docs.aws.amazon.com/AmazonS3/latest/user-guide/add-cors-configuration.html
-    - https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html
-
-1. How to integrate LDAP with IAM?
-    - https://aws.amazon.com/blogs/security/aws-federated-authentication-with-active-directory-federation-services-ad-fs/
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_common-scenarios_federated-users.html
-
 1. Info on how to create a HA RDS
     - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html
     - https://aws.amazon.com/blogs/database/amazon-rds-under-the-hood-multi-az/
@@ -328,9 +255,6 @@ While talking to someone around AWS or while conducting trainings, some of the q
     - https://www.redhat.com/en/topics/cloud-native-apps
 
     >Cloud-native applications are a collection of small, independent, and loosely coupled services. They are designed to deliver well recognized business value, like the ability to rapidly incorporate user feedback for continuous improvement. In short, cloud-native app development is a way to speed up how you build new applications, optimize existing ones, and connect them all together. Its goal is to deliver apps users want at the pace a business needs.
-
-1. Different ways of connecting the on-premise network to the AWS network
-     - https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/network-to-amazon-vpc-connectivity-options.html
 
 1. Replacing Auto Scaling instances based on an instance refresh
     - https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-instance-refresh.html
@@ -344,14 +268,18 @@ While talking to someone around AWS or while conducting trainings, some of the q
 1. Lambda functions as targets for Application ELB
     - https://docs.aws.amazon.com/elasticloadbalancing/latest/application/lambda-functions.html
 
-1. Use RSA private key to generate public key?
-    - https://stackoverflow.com/a/5246045/614157
-
 1. Attaching a volume to multiple instances with Amazon EBS Multi-Attach
     - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes-multi.html
 
 1. How do I set up weighted target groups for my Application Load Balancer?
     - https://aws.amazon.com/premiumsupport/knowledge-center/elb-make-weighted-target-groups-for-alb/
+
+1. Connecting to Linux and Windows EC2 instances from Mac
+    - https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac (for Windows EC2 instances)
+    - https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-2-connect-to-instance.html (For Linux EC2 instances)
+
+1. Hibernate EC2 instances
+    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Hibernate.html
 
 # TODO
 

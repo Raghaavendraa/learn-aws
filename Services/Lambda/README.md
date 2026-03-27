@@ -12,15 +12,28 @@ SNS, SQS, SES, S3 along with Lambda are a few AWS Services which follow the serv
 
 1. `lambda-nodejs-send-ses-email-s3trigger.js` is a JS code which uses AWS SES to send an email. This can be integrated with S3. So, when an object is uploaded to S3, it can automatically trigger the Lambda function which will send an email notification. Note that both the email addresses have to verified in the SES.
 
-2. `lambda-nodejs-publish-sns-topic-sqs-trigger.js` again is a JS code which publishes a messaged to an SNS Topic. This Lambda function can be integrated with SQS. As soon as a messages is put in the Queue, it triggers the Lambda functions which publishes a messages to the SNS Topic.
+1. `lambda-nodejs-publish-sns-topic-sqs-trigger.js` again is a JS code which publishes a messaged to an SNS Topic. This Lambda function can be integrated with SQS. As soon as a messages is put in the Queue, it triggers the Lambda functions which publishes a messages to the SNS Topic.
 
 # Further Reading
 
-1. Home Page
-    - https://aws.amazon.com/lambda/
-
 1. AWS Serverless
     - https://aws.amazon.com/serverless/
+
+1. Differences between CloudFront Functions and Lambda@Edge
+    - https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/edge-functions-choosing.html
+    - https://dev.to/aws-builders/migrating-from-lambda-edge-to-cloudfront-functions-3k7k
+
+1. How do I give internet access to a Lambda function that's connected to an Amazon VPC?
+    - https://aws.amazon.com/premiumsupport/knowledge-center/internet-access-lambda-function/
+
+1. Configuring interface VPC endpoints for Lambda
+    - https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc-endpoints.html
+
+1. Configuring a Lambda function to access resources in a VPC
+    - https://docs.aws.amazon.com/lambda/latest/dg/configuration-vpc.html
+
+1. AWS Lambda execution environment
+    - https://docs.aws.amazon.com/lambda/latest/dg/runtimes-context.html
 
 1. Firecracker (VM technology for Fargate and Lambda) and BottleRocket (Container OS for K8S for customers)
     - https://aws.amazon.com/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing/
@@ -54,3 +67,23 @@ SNS, SQS, SES, S3 along with Lambda are a few AWS Services which follow the serv
 
 1. Auto generate the IAM policies for the Lambda (code is not updated much)
     - https://github.com/puresec/serverless-puresec-cli
+
+1. Lambda functions as targets for Application ELB
+    - https://docs.aws.amazon.com/elasticloadbalancing/latest/application/lambda-functions.html
+
+1. AWS Lambda Extensions
+    - https://aws.amazon.com/lambda/aws-learning-path-lambda-extensions/
+    - https://pages.awscloud.com/Integrating-AWS-Lambda-with-Your-Favorite-Tools_2021_0614-SRV_OD.html
+
+1. Deploying Lambda using AWS Development Tools
+    - https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorial-lambda-sam.html
+    - https://docs.aws.amazon.com/codedeploy/latest/userguide/deployment-steps-lambda.html
+    - https://www.youtube.com/watch?v=aGI4Wlm5c9U
+
+1. Lambda multiple invocations
+    - https://docs.aws.amazon.com/lambda/latest/dg/API_Invoke.html
+    
+    For asynchronous invocation, Lambda adds events to a queue before sending them to your function. If your function does not have enough capacity to keep up with the queue, events may be lost. Occasionally, your function may receive the same event multiple times, even if no error occurs. To retain events that were not processed, configure your function with a dead-letter queue.
+
+1. Comparing Lambda invocation modes
+    - https://docs.aws.amazon.com/lambda/latest/operatorguide/invocation-modes.html

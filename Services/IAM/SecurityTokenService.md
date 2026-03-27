@@ -17,10 +17,6 @@ STS Supports
 1. AWS: Use the Session Token Service to Securely Upload Files to S3
     - https://www.youtube.com/watch?v=4_csSXc_GNU
 
-1. 3 Steps to Access AWS Resources with Google Sign-In
-    - https://blog.codecentric.de/en/2018/04/accessing-aws-resources-with-google-sign-in/
-    - https://dzone.com/articles/google-authentication-for-your-aws-management-cons
-
 1. JWT
     - https://jwt.io/introduction/
     - https://jwt.io/#debugger-io

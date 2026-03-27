@@ -93,6 +93,49 @@ VPC spans within a region, Subnet spans within a Availability Zone. When you cre
 
 # Further Reading
 
+1. Amazon VPC IP Address Manager (IPAM)
+	- https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html
+
+1. IPv4 Subnet Creator
+	- https://network00.com/NetworkTools/IPv4SubnetCreator/
+
+1. VPC Ingress Routing – Simplifying Integration of Third-Party Appliances
+	- https://aws.amazon.com/blogs/aws/new-vpc-ingress-routing-simplifying-integration-of-third-party-appliances/
+
+1. Amazon VPC Routing Enhancements Allow You to Inspect Traffic Between Subnets In a VPC
+	- https://aws.amazon.com/blogs/aws/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/
+
+1. Centralize access using VPC interface endpoints to access AWS services across multiple VPCs
+	- https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints/
+
+1. Choosing Your VPC Endpoint Strategy for Amazon S3
+    - https://aws.amazon.com/blogs/architecture/choosing-your-vpc-endpoint-strategy-for-amazon-s3/
+
+1. Enabling New SaaS Strategies with AWS PrivateLink
+	- https://aws.amazon.com/blogs/apn/enabling-new-saas-strategies-with-aws-privatelink/
+
+1. Control access to services with VPC endpoints
+	- https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-access.html
+
+1. Interface endpoint properties and limitations
+	- https://docs.aws.amazon.com/vpc/latest/privatelink/vpce-interface.html#vpce-interface-limitations
+
+1. NAT Instance vs Gateway
+    - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
+
+1. Data Transfer Pricing
+    - https://www.apptio.com/emerge/aws-data-transfer-costs/
+    - https://aws.amazon.com/ec2/pricing/on-demand/
+
+1. What is the least CIDR that we can use in AWS VPC?
+    - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#VPC_Sizing
+
+1. VPC Resize
+    - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-resize
+
+1. Default VPC and default subnets
+	- https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html
+
 1. Traffic Mirroring
 	- https://aws.amazon.com/blogs/aws/new-vpc-traffic-mirroring/
 
@@ -101,3 +144,13 @@ VPC spans within a region, Subnet spans within a Availability Zone. When you cre
 	- https://aws.amazon.com/blogs/networking-and-content-delivery/migrate-from-transit-vpc-to-aws-transit-gateway/
 	- https://aws.amazon.com/blogs/aws/new-use-an-aws-transit-gateway-to-simplify-your-network-architecture/
 	- https://www.youtube.com/watch?v=yQGxPEGt_-w/
+
+1. VPC Flow Logs
+	- https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html
+	- https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-logs-fields
+
+1. Different ways of connecting the on-premise network to the AWS network
+     - https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/network-to-amazon-vpc-connectivity-options.html
+
+1. How Netflix is able to enrich VPC Flow Logs at Hyper Scale to provide Network Insight
+    - https://netflixtechblog.com/hyper-scale-vpc-flow-logs-enrichment-to-provide-network-insight-e5f1db02910d

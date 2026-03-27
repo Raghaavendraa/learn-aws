@@ -4,8 +4,35 @@ This is one of the oldest service from AWS and is also very widely used by the i
 
 # Further Reading
 
+1. AWS S3 account regional namespaces
+    - https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets/
+    - https://onecloudplease.com/blog/bucketsquatting-is-finally-dead
+
+1. How USAA built an Amazon S3 malware scanning solution
+    - https://aws.amazon.com/blogs/architecture/how-usaa-built-an-amazon-s3-malware-scanning-solution/
+
+1. Virus scan S3 buckets with a serverless ClamAV based CDK construct
+    - https://aws.amazon.com/blogs/developer/virus-scan-s3-buckets-with-a-serverless-clamav-based-cdk-construct/
+
+1. Choosing Your VPC Endpoint Strategy for Amazon S3
+    - https://aws.amazon.com/blogs/architecture/choosing-your-vpc-endpoint-strategy-for-amazon-s3/
+
+1. Celebrating 15 years with Amazon S3 (good end-2-end videos on S3)
+    - https://www.youtube.com/playlist?list=PL2yQDdvlhXf8vAnQB10dCPIeWUKdHUgOP
+
+1. How many versions can store in S3?
+    - AWS doesn't put any limitations on how many versions can be stored for a particular object in S3.
+
+1. Why are S3 and Google Storage bucket names a global namespace?
+    - https://stackoverflow.com/questions/24112647/why-are-s3-and-google-storage-bucket-names-a-global-namespace
+
 1. Storage Classes
+    - https://aws.amazon.com/s3/storage-classes/
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html
+
+1. S3 SLA
+    - https://aws.amazon.com/s3/sla/
+    - https://www.lastweekinaws.com/blog/s3s-durability-guarantees-arent-what-you-think/
 
 1. Versioning
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html
@@ -29,19 +56,39 @@ This is one of the oldest service from AWS and is also very widely used by the i
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/crr.html
     - https://aws.amazon.com/about-aws/whats-new/2019/09/amazon-s3-introduces-same-region-replication/
 
-1. Snowball and Snowmobile
+1. Snow Devices
     - https://aws.amazon.com/snowcone/ (8TB)
     - https://aws.amazon.com/snowball/ (50TB and 80TB)
-    - https://aws.amazon.com/snowmobile/ (10 PB)
-    - https://www.youtube.com/watch?v=H3_ZqnqLyVo (CNBC Video)
-    - https://aws.amazon.com/blogs/publicsector/from-deserts-to-the-battlefield-aws-snowball-edge-brings-technology-to-the-tactical-edge/ (AWS Article)
+    - https://aws.amazon.com/snowmobile/ (100 PB)
+
+    - https://www.youtube.com/watch?v=H3_ZqnqLyVo
+    - https://aws.amazon.com/blogs/publicsector/from-deserts-to-the-battlefield-aws-snowball-edge-brings-technology-to-the-tactical-edge
+    - https://blog.maxar.com/earth-intelligence/2017/digitalglobe-moves-to-the-cloud-with-aws-snowmobile
 
 1. S3 Intelligent Tiering
-    - https://aws.amazon.com/about-aws/whats-new/2018/11/s3-intelligent-tiering/
-
-1. Permissions in S3 (IAM vs Bucket Policy vs ACL)
-    - https://cloudonaut.io/s3-security-best-practice/
-    - https://aws.amazon.com/blogs/security/iam-policies-and-bucket-policies-and-acls-oh-my-controlling-access-to-s3-resources/
+    - https://aws.amazon.com/s3/storage-classes/#Unknown_or_changing_access
 
 1. Optimizing Amazon S3 Performance
     - https://docs.aws.amazon.com/AmazonS3/latest/dev/optimizing-performance.html
+
+1. Uploading and copying objects using multipart upload
+    - https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html
+
+1. Getting started with storage gateway
+    - https://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted.html
+
+1. S3 Demo around Tagging
+    - https://docs.aws.amazon.com/AmazonS3/latest/dev/object-tagging.html
+    - https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-configuration-examples.html#lifecycle-config-ex1
+
+1. Supported S3 transitions and related constraints
+    - https://docs.aws.amazon.com/AmazonS3/latest/dev/lifecycle-transition-general-considerations.html
+
+1. S3 Multi Part Upload
+    - https://docs.aws.amazon.com/AmazonS3/latest/dev/mpuoverview.html
+
+1. Using presigned URLs
+    - https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html
+
+1. Strengthen the security of sensitive data stored in Amazon S3 by using additional AWS services
+    - https://aws.amazon.com/blogs/security/strengthen-the-security-of-sensitive-data-stored-in-amazon-s3-by-using-additional-aws-services/

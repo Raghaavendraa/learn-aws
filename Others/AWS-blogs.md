@@ -2,6 +2,15 @@
 
 There are a good number of blogs on AWS and below are some of them I do follow on a regular basis using [Inoreader](https://www.inoreader.com/). As usual AWS or any other company will write biased blogs on their own services/products etc (who wouldn't do it, I would have done the same). So, at the end there are some blogs by non-AWS companies and individuals around AWS.
 
+1. All Things Distributed (AWS CTO) **
+    - https://www.allthingsdistributed.com/
+
+1. Perspectives **
+    - http://perspectives.mvdirona.com/SyndicationService.asmx/GetRss
+
+1. Amazon Bedrock Blog
+    - https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/
+
 1. AWS - What's New
     - http://aws.amazon.com/rss/whats-new.rss
 
@@ -10,9 +19,6 @@ There are a good number of blogs on AWS and below are some of them I do follow o
 
 1. AWS Architecture Blog
     - https://aws.amazon.com/blogs/architecture/feed
-
-1. AWS Security Blog
-    - https://aws.amazon.com/blogs/security/feed
 
 1. Containers
     - https://aws.amazon.com/blogs/containers/feed
@@ -65,10 +71,7 @@ There are a good number of blogs on AWS and below are some of them I do follow o
 1. AWS Compute Blog
     - https://aws.amazon.com/blogs/compute/feed/
 
-# Blogs not written by AWS and I like :)
-
-1. Perspectives (very much recommend this one)
-    - http://perspectives.mvdirona.com/SyndicationService.asmx/GetRss
+# Blogs not written by AWS
 
 1. Praveen's Blog
     - https://www.thecloudavenue.com/

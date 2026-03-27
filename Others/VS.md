@@ -1,6 +1,23 @@
 # Comparing different concepts around cloud.
 
-It's easy to get confused :) Here we try to compare concepts related to the cloud.
+It's easy to get confused :) Here I try to compare concepts related to the cloud.
+
+1. Dedicated Hosts vs Dedicated Instance
+    - https://aws.amazon.com/ec2/dedicated-hosts/
+    - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/dedicated-instance.html#dh-di-diffs
+    - https://www.jasoncoelho.com/2022/04/aws-dedicated-host-vs-dedicated-instance.html
+
+1. AWS App Mesh VS. Istio
+    - https://vedcraft.com/architecture/aws-appmesh-vs-istio-comparison-of-service-mesh/
+
+1. Migrating from Lambda@Edge to CloudFront Functions
+    - https://dev.to/aws-builders/migrating-from-lambda-edge-to-cloudfront-functions-3k7k
+
+1. Kinesis vs. Kafka: Which Stream Processor Comes Out on Top?
+    - https://www.lastweekinaws.com/blog/kinesis-vs-kafka-which-stream-processor-comes-out-on-top/
+
+1. Aurora vs RDS
+    - https://www.lastweekinaws.com/blog/aurora-vs-rds-an-engineers-guide-to-choosing-a-database/
 
 1. Amazon ECS vs Amazon EKS: making sense of AWS container services
     - https://aws.amazon.com/blogs/containers/amazon-ecs-vs-amazon-eks-making-sense-of-aws-container-services/
@@ -13,10 +30,6 @@ It's easy to get confused :) Here we try to compare concepts related to the clou
     - https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained
     - https://medium.com/awesome-cloud/aws-difference-between-efs-and-ebs-8c0d72a348ad
     - Cost (EFS > EBS > S3)
-
-1. URL for comparing GCP, AWS and Azure
-    - https://www.datamation.com/cloud-computing/aws-vs-azure-vs-google-cloud-comparison.html
-    - http://comparecloud.in/
 
 1. Security Groups vs NACL
     - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html#VPC_Security_Comparison
@@ -41,5 +54,17 @@ It's easy to get confused :) Here we try to compare concepts related to the clou
    - https://aws.amazon.com/elasticache/redis-vs-memcached/
    - https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/SelectEngine.html
 
-1. Identity-based policies and resource-based policies
-    - https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_identity-vs-resource.html
+1. Choosing a Rehost Migration Tool – CloudEndure or AWS SMS
+	- https://aws.amazon.com/blogs/architecture/field-notes-choosing-a-rehost-migration-tool-cloudendure-or-aws-sms/
+
+1. Should I Run my Containers on AWS Fargate, AWS Lambda, or Both?
+    - https://aws.amazon.com/blogs/architecture/should-i-run-my-containers-on-aws-fargate-aws-lambda-or-both/
+
+1. Choosing between HTTP APIs and REST APIs
+    - https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html
+
+1. Storing Apache Hadoop Data on the Cloud - HDFS vs. S3
+    - https://www.xplenty.com/blog/storing-apache-hadoop-data-cloud-hdfs-vs-s3/
+
+1. Leveraging the s3 and s3api Commands
+    - https://aws.amazon.com/blogs/developer/leveraging-the-s3-and-s3api-commands/

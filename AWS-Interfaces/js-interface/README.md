@@ -1,5 +1,7 @@
 # Installing Node.js SDK and execute programs.
 
+# TODO Include instructions to create IAM Role and attach the same to EC2
+
 1. Execute the below commands on the EC2 instance.
 
     >sudo apt update\
@@ -22,6 +24,9 @@
 1. Execute the different programs in this folder and also from the below `Examples` section.
 
 # Further Reading
+
+1. Mocking modular AWS SDK for JavaScript (v3) in Unit Tests
+    - https://aws.amazon.com/blogs/developer/mocking-modular-aws-sdk-for-javascript-v3-in-unit-tests/
 
 1. Modular packages in AWS SDK for JavaScript
     - https://aws.amazon.com/blogs/developer/modular-packages-in-aws-sdk-for-javascript/

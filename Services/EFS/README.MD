@@ -1,8 +1,14 @@
 # Elastic File System
 
-1. Create two EC2 instances (Ubuntu/t2.micro) with AllowSSH (inbound/SSH/22) and AllowNFS (inbound/NFS) Security Groups.
+What is a EFS mount target?
 
-1. Create EFS Volume with the mount target in the AZ as the EC2 instances and AllowEFS as the Security Group.
+https://docs.aws.amazon.com/efs/latest/ug/how-it-works.html#how-it-works-conceptual
+
+A mount target provides an IP address for an NFSv4 endpoint at which you can mount an Amazon EFS file system. You mount your file system using its Domain Name Service (DNS) name, which resolves to the IP address of the EFS mount target in the same Availability Zone as your EC2 instance. You can create one mount target in each Availability Zone in an AWS Region. If there are multiple subnets in an Availability Zone in your VPC, you create a mount target in one of the subnets. Then all EC2 instances in that Availability Zone share that mount target.
+
+1. Create two EC2 instances (Ubuntu/t2.micro) with AllowSSH (inbound/SSH/22) Security Group.
+
+1. Create EFS Volume with the mount target in the AZ as the EC2 instances and AllowEFS (inbound/NFS) as the Security Group.
 
 1. Execute the below commands to mount the EFS on both the EC2 instances.
 
@@ -26,5 +32,19 @@
 
 # Further Reading
 
+1. Metering: How Amazon EFS reports file system and object sizes
+    - https://docs.aws.amazon.com/efs/latest/ug/metered-sizes.html
+
 1. Mount the Amazon EFS File System on the EC2 Instance and Test
     - https://docs.aws.amazon.com/efs/latest/ug/wt1-test.html
+
+1. What are the IP address for after creation of the EFS
+    - https://docs.aws.amazon.com/efs/latest/ug/mounting-fs-mount-cmd-ip-addr.html
+
+1. EFS access around multiple multiple regions and VPC
+    - https://aws.amazon.com/about-aws/whats-new/2018/10/amazon-efs-now-supports-aws-vpn-and-inter-region-vpc-peering/
+    - https://docs.aws.amazon.com/efs/latest/ug/efs-different-vpc
+    - https://docs.aws.amazon.com/efs/latest/ug/manage-fs-access-vpc-peering.html
+    
+1. How to mount EFS to EC2 for cross region?
+    - https://aws.amazon.com/about-aws/whats-new/2018/10/amazon-efs-now-supports-aws-vpn-and-inter-region-vpc-peering/

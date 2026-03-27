@@ -12,9 +12,7 @@
     - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings.html
 
 1. GuardDuty findings
-    - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-ec2.html
-    - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-s3.html
-    - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-iam.html
+    - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-active.html
 
 1. Creating custom responses to GuardDuty findings with Amazon CloudWatch Events
     - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings_cloudwatch.html
@@ -24,3 +22,6 @@
 
 1. Tester with commands
     - https://github.com/awslabs/amazon-guardduty-tester
+
+1. How you can use Amazon GuardDuty to detect suspicious activity within your AWS account
+    - https://aws.amazon.com/blogs/security/how-you-can-use-amazon-guardduty-to-detect-suspicious-activity-within-your-aws-account/
